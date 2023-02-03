@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+:root{
+    font-family: 'Source Sans Pro', sans-serif;
+    --primary-color: rgb(16, 16, 207);
+    --secondary-color: rgb(232, 232, 232);
+    --light-gry-color: #F3F4F6;
+    --dark-gry-color: #c7cacd;
+}
+
+
+/* @Navigation-Bar */
+.navigation {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    color: var(--secondary-color);
+    border-radius: 0.3rem;
+}
+
+.navigation a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.nav-pills {
+    text-align: right;
+}
+
+.nav-brand {
+    font-weight: bold;
+
+}
+.link-btn {
+    font-weight: bold;
+    background-color:rgb(0 0 0 / 18%);
+    padding: 0.5rem;
+}
+
+/* @Header */
+.header {
+    padding: 2rem;
+}
+
+.header-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.header-heading {
+    text-align: center;
+}
+
+
+/* @Section */
+.section{
+    text-align: center;
+}
+
+.off-white {
+    padding: 1rem 0rem;
+}
+
+.tech {
+    padding-right: 3rem;
+    /* background-color: red; */
+}
+
+.proj {
+    padding-right: 3rem;
+    /* background-color: rgb(15, 187, 118); */
+}
+.section-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* @Link  */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.3rem;
+    color: var(--secondary-color);
+
+}
+
+.seconday-link {
+    color: var(--primary-color);
+    border-radius: 0.3rem;
+    border: 1px solid var(--primary-color);
+}
+
+
+
+/* @Footer */
+.footer {
+    background-color: var(--primary-color);
+    padding: 3rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.footer .link {
+    color: var(--secondary-color);
+}
+
+.footer-text {
+    color: var(--secondary-color);
+    padding-bottom: 2rem;
+}
+
+
+/* @List */
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
