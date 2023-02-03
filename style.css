@@ -77,10 +77,6 @@
     max-width: 100px;
 }
 
-.about {
-
-}
-
 .about-me {
     margin: 1rem 10rem;
 }
@@ -89,6 +85,12 @@
     max-width: 160px;
     margin-top: 2rem 0rem;
 }
+
+.div-foot {
+    margin-top: 1rem;
+}
+
+
 
 /* @Link  */
 .link {
