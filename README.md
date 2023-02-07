@@ -1,5 +1,5 @@
-# Learning - Portfolio Website
+# Portfolio Website
 
-I try to make my Simple Portfolio Website with Html5, Css3
+Technologies use Html, Css, JavaScript.
 
-Learning.........
+Learning with practical.....
