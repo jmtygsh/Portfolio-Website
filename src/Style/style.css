@@ -4,9 +4,9 @@
     --primary-color: rgb(16, 16, 207);
     --secondary-color: rgb(232, 232, 232);
     --background-color: rgb(247 255 255);
+    --highlight-color:aliceblue;
     background-color: var(--background-color);
 }
-
 
 /* @Navigation-Bar */
 .navigation {
@@ -52,7 +52,6 @@
 }
 
 
-
 /* @Section */
 .section{
     text-align: center;
@@ -61,7 +60,7 @@
 
 .flex-div {
     margin: auto;
-    background-color: aliceblue;
+    background-color: var(--highlight-color);
     border-radius: 0.5rem;
     padding: 2rem;
 } 
@@ -103,6 +102,10 @@
     color: var(--secondary-color);
 }
 
+/* link hover */
+.link:hover {
+    background-color: rgb(233, 78, 78);
+}
 
 
 /* @Footer */
@@ -135,4 +138,34 @@
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+
+/* Project Webpage ..Style start here */
+.main-unorder-list {
+    text-align: center;
+    list-style: none;
+}
+
+.main-reverse-list {
+    background-color: var(--highlight-color);
+    padding-bottom: 2rem;
+    border-radius: 0.3rem;
+    border-top: 1px solid var(--primary-color);
+    margin-top: 1rem;
+}
+
+.reverse-images {
+    width: 500px;
+}
+/* overwrite */
+ol {
+    padding-inline-start: 0px;
+}
+
+
+/* About Webpage start from here */
+.about-image {
+    width: 100px;
+    border-radius: 50px;
 }
